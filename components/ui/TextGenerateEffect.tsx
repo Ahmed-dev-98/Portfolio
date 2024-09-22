@@ -6,9 +6,11 @@ import { cn } from "@/utils/cn";
 export const TextGenerateEffect = ({
   words,
   className,
+  isColorized,
 }: {
   words: string;
   className?: string;
+  isColorized?: boolean;
 }) => {
   const [scope, animate] = useAnimate();
   const wordsArray = words.split(" ");
@@ -35,8 +37,10 @@ export const TextGenerateEffect = ({
               key={word + idx}
               // change here if idx is greater than 3, change the text color to #CBACF9
               className={` ${
-                idx > 3 ? "text-purple" : "dark:text-white text-black"
-              } opacity-0`}
+                idx > 3 && isColorized
+                  ? "text-purple"
+                  : "dark:text-white text-black"
+              }  opacity-0`}
             >
               {word}{" "}
             </motion.span>

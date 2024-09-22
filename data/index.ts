@@ -1,4 +1,3 @@
-
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -73,18 +72,25 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: '/Electronics.svg',
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    title: "Pi Electronics",
+    des: "Electronics ecommerce website for purchasing, renting, requesting, and printing electronic items.",
+    img: "/template.png",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/shadcn.png",
+      "/Vitejs-logo.svg",
+      "/react-query.svg",
+    ],
     link: "https://pi-electronics-dev.space/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
+    title: "Ohme",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    img: "/templateOhme.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/shadcn.png"],
     link: "/ui.yoom.com",
   },
   {
@@ -215,4 +221,10 @@ export const socialMedia = [
     id: 3,
     img: "/link.svg",
   },
+];
+
+export const cards = [
+  { title: "pi-electronics", src: "/re.svg" },
+  { title: "pi-electronics", src: "/templateOhme.png" },
+  { title: "pi-electronics", src: "/templateOhme.png" },
 ];
