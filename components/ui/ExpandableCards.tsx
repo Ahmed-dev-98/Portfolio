@@ -200,8 +200,7 @@ export const CloseIcon = () => {
 
 const cards = [
   {
-    description:
-      "TypeScript is a programming language that adds extra functionality to JavaScript",
+    description: "TypeScript is a superset of JavaScript,.",
     title: "TypeScript",
     src: "/ts.svg",
     ctaText: "View",
@@ -209,9 +208,10 @@ const cards = [
     content: () => {
       return (
         <p>
-          React is the library for web and native user interfaces. Build user
-          interfaces out of individual pieces called components written in
-          JavaScript.
+          developed and maintained by Microsoft as an open-source programming
+          language. TypeScript can seamlessly integrate into existing JavaScript
+          code, adding structure and catching type safety errors before they
+          crash your app.
         </p>
       );
     },
@@ -225,9 +225,10 @@ const cards = [
     content: () => {
       return (
         <p>
-          React is the library for web and native user interfaces. Build user
-          interfaces out of individual pieces called components written in
-          JavaScript.
+          ReactJS&apos;s primary goal is to create User Interfaces (UI) which
+          enhance the speed of programs. It makes use of virtual DOM (JavaScript
+          object), which enhances the app&apos;s efficiency. Quicker than the
+          standard DOM is the JavaScript virtual DOM.
         </p>
       );
     },
@@ -237,20 +238,20 @@ const cards = [
     title: "Next",
     src: "/next.svg",
     ctaText: "View",
-    ctaLink: "https://ui.aceternity.com/templates",
+    ctaLink: "https://nextjs.org/",
     content: () => {
       return (
         <p>
-          The React Framework for the Web. Used by some of the world&apos;s
-          largest companies, Next.js enables you to create high-quality web
-          applications with the power of React components.
+          Next.js is a React framework that gives you building blocks to create
+          web applications. By framework, we mean Next.js handles the tooling
+          and configuration needed for React, and provides additional structure,
+          features, and optimizations for your application.
         </p>
       );
     },
   },
   {
-    description:
-      "Tailwind CSS is a utility-first CSS framework for rapidly building modern websites without ever leaving your JSX.",
+    description: "A utility-first CSS framework ",
     title: "Tailwind",
     src: "/tail.svg",
     ctaText: "View",
@@ -258,16 +259,15 @@ const cards = [
     content: () => {
       return (
         <p>
-          The React Framework for the Web. Used by some of the world&apos;s
-          largest companies, Next.js enables you to create high-quality web
-          applications with the power of React components.
+          Tailwind CSS is a design system implementation in pure CSS. It is also
+          configurable. It gives developers super powers. It allows them to
+          build websites with a clean consistent UI
         </p>
       );
     },
   },
   {
-    description:
-      "Vite is a build tool that enhances the front-end development experience",
+    description: "Vite is a build tool ",
     title: "Vite",
     src: "/Vitejs-logo.svg",
     ctaText: "View",
@@ -275,16 +275,33 @@ const cards = [
     content: () => {
       return (
         <p>
-          The React Framework for the Web. Used by some of the world&apos;s
-          largest companies, Next.js enables you to create high-quality web
-          applications with the power of React components.
+          Vite is a build tool that enhances the front-end development
+          experience. It lets you configure a development environment for Vue,
+          TezJS and React
         </p>
       );
     },
   },
   {
     description:
-      "TanStack Query gives you declarative, always-up-to-date auto-managed queries and mutations that directly .",
+      "Open source library for building user interfaces based on React",
+    title: "Shadcn",
+    src: "/shadcn.png",
+    ctaText: "View",
+    ctaLink: "https://ui.shadcn.com/",
+    content: () => {
+      return (
+        <p>
+          Shadcn is not your typical component library. Instead of installing it
+          as a dependency through npm, Shadcn offers a collection of beautifully
+          designed, accessible, and customizable React components that you can
+          copy and paste directly into your project.
+        </p>
+      );
+    },
+  },
+  {
+    description: "data fetching and synchronization",
     title: "React-query",
     src: "/react-query.svg",
     ctaText: "View",
@@ -292,26 +309,29 @@ const cards = [
     content: () => {
       return (
         <p>
-          The React Framework for the Web. Used by some of the world&apos;s
-          largest companies, Next.js enables you to create high-quality web
-          applications with the power of React components.
+          React Query is a JavaScript library designed to simplify the complex
+          task of data fetching and caching in React applications. It offers a
+          set of hooks and utilities that enable you to manage data from various
+          sources, including REST APIs, GraphQL, or even local state,
+          effortlessly.
         </p>
       );
     },
   },
   {
-    description:
-      "Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source. ",
-    title: "Shadcn",
-    src: "/shadcn.png",
+    description: "Programming language",
+    title: "JavaScript",
+    src: "/js.png",
     ctaText: "View",
-    ctaLink: "https://tanstack.com/query/v3",
+    ctaLink:
+      "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript",
     content: () => {
       return (
         <p>
-          The React Framework for the Web. Used by some of the world&apos;s
-          largest companies, Next.js enables you to create high-quality web
-          applications with the power of React components.
+          JavaScript, often abbreviated as JS, is a programming language and
+          core technology of the Web, alongside HTML and CSS. 99% of websites
+          use JavaScript on the client side for webpage behavior. Web browsers
+          have a dedicated JavaScript engine that executes the client code
         </p>
       );
     },
