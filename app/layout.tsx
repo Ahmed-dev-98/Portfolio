@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { ThemeProvider } from "./ThemeProvider";
+import { Analytics } from "@vercel/analytics/react";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -16,7 +17,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Ahmed-Hassan Portfolio",
-  description: "Ahmed Hassan Portfolio using Next.js 13",
+  description: "Ahmed Hassan Portfolio using Next.js 14",
 };
 
 export default function RootLayout({
@@ -36,7 +37,8 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
-        </ThemeProvider>
+        </ThemeProvider>{" "}
+        <Analytics />
       </body>
     </html>
   );

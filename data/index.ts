@@ -13,7 +13,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/b1.webp",
     spareImg: "",
   },
   {
@@ -43,7 +43,7 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "/grid.svg",
+    img: "/grid.webp",
     spareImg: "/b4.svg",
   },
 
@@ -55,7 +55,7 @@ export const gridItems = [
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "/b5.svg",
-    spareImg: "/grid.svg",
+    spareImg: "/grid.webp",
   },
   {
     id: 6,
@@ -74,7 +74,7 @@ export const projects = [
     id: 1,
     title: "Pi Electronics",
     des: "Electronics ecommerce website for purchasing, renting, requesting, and printing electronic items.",
-    img: "/template.png",
+    img: "/template.webp",
     iconLists: [
       "/re.svg",
       "/tail.svg",
@@ -89,7 +89,7 @@ export const projects = [
     id: 2,
     title: "Ohme",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/templateOhme.png",
+    img: "/templateOhme.webp",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/shadcn.png"],
     link: "/ui.yoom.com",
   },
@@ -105,7 +105,7 @@ export const projects = [
     id: 4,
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    img: "/p4.webp",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/ui.apple.com",
   },
@@ -225,6 +225,6 @@ export const socialMedia = [
 
 export const cards = [
   { title: "pi-electronics", src: "/re.svg" },
-  { title: "pi-electronics", src: "/templateOhme.png" },
-  { title: "pi-electronics", src: "/templateOhme.png" },
+  { title: "pi-electronics", src: "/templateOhme.webp" },
+  { title: "pi-electronics", src: "/templateOhme.webp" },
 ];

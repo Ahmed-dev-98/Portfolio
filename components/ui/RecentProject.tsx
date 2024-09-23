@@ -35,7 +35,7 @@ const RecentProjects = () => {
               <div className="flex basis-full gap-3 flex-col  tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] ">
                 <div className="max-h-[20rem] overflow-y-scroll">
                   <img
-                    src="/ajada-frontend-vercel-app-2024-09-22-14_57_30.png"
+                    src="/ajada.webp"
                     alt="startup template"
                     width={500}
                     height={500}
@@ -48,7 +48,7 @@ const RecentProjects = () => {
               <div className="flex basis-full gap-3 flex-col  tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] ">
                 <div className="max-h-[20rem] overflow-y-scroll">
                   <img
-                    src="/innovatics-io-2024-09-22-14_56_58.png"
+                    src="/innovatics.webp"
                     alt="startup template"
                     width={500}
                     height={500}
@@ -61,7 +61,7 @@ const RecentProjects = () => {
               <div className="flex basis-full gap-3 flex-col  tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] ">
                 <div className="max-h-[20rem] overflow-y-scroll">
                   <img
-                    src="/risesn-2024-09-22-14_54_45.png"
+                    src="/risesn.webp"
                     alt="startup template"
                     width={500}
                     height={500}
@@ -74,7 +74,7 @@ const RecentProjects = () => {
               <div className="flex basis-full gap-3 flex-col  tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] ">
                 <div className="max-h-[20rem] overflow-y-scroll">
                   <img
-                    src="/lycheeonwheels-2024-09-22-16_01_19.png"
+                    src="/lycheeonwheels.webp"
                     alt="startup template"
                     width={500}
                     height={500}
