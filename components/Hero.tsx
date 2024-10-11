@@ -29,7 +29,7 @@ const Hero = () => {
        *  0.2 to 0.03
        */}
       <div
-        className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
+        className="h-[80vh]  w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
        absolute top-0 left-0 flex items-center justify-center"
       >
         {/* Radial gradient for the container to give a faded look */}
@@ -43,14 +43,9 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic with Next.js
+            Dynamic Web Magic with React.js
           </p>
 
-          {/**
-           *  Link: https://ui.aceternity.com/components/text-generate-effect
-           *
-           *  change md:text-6xl, add more responsive code
-           */}
           <TextGenerateEffect
             isColorized
             words="Transforming Concepts into Seamless User Experiences"
@@ -58,12 +53,12 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Ahmed, a Next.js Developer based in Egypt.
+            Hi! I&apos;m Ahmed, a Frontend Developer based in Egypt.
           </p>
 
-          <a href="#about">
+          <a href="/library" rel="noopener noreferrer" target="_blank">
             <MagicButton
-              title="Show my work"
+              title="Check out my library"
               icon={<FaLocationArrow />}
               position="right"
             />

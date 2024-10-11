@@ -200,7 +200,7 @@ export const CloseIcon = () => {
 
 const cards = [
   {
-    description: "TypeScript is a superset of JavaScript,.",
+    description: "A superset of JavaScript,.",
     title: "TypeScript",
     src: "/ts.svg",
     ctaText: "View",

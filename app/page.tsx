@@ -2,7 +2,7 @@ import Approach from "@/components/Approach";
 import Clients from "@/components/Clients";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
-import Grid from "@/components/Grid";
+import { BentoGridDemo } from "@/components/Grid";
 import Hero from "@/components/Hero";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import RecentProject from "@/components/ui/RecentProject";
@@ -13,7 +13,7 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <FloatingNav />
         <Hero />
-        <Grid />
+        <BentoGridDemo />
         <RecentProject />
         <Clients />
         <Experience />
