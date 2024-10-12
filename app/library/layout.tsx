@@ -1,13 +1,13 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
+import { usePathname } from "next/navigation";
 
 export default function LibraryLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const [active, setActive] = useState("");
+  const pathName = usePathname();
   const components = [
     {
       name: "Selectors",
@@ -15,12 +15,12 @@ export default function LibraryLayout({
     },
 
     {
-      name: "Buttons",
+      name: "button",
       path: "button",
     },
     {
-      name: "Pagintaion",
-      path: "Pagintaion",
+      name: "table",
+      path: "table",
     },
     {
       name: "Avatar",
@@ -31,14 +31,15 @@ export default function LibraryLayout({
       path: "otp",
     },
     {
-      name: "Date Picker",
-      path: "Date Picker",
+      name: "date-picker",
+      path: "date-picker",
     },
     {
       name: "Intenational Phone",
       path: "Date Picker",
     },
   ];
+
   return (
     <div className="w-full h-screen bg-[#09090b] flex">
       <div className="w-[20%] border-r p-12 flex flex-col gap-12 justify-start items-center ">
@@ -52,11 +53,10 @@ export default function LibraryLayout({
               href={`/library/${component.path}`}
               key={component.path}
               className={`${
-                active === component.path
+                pathName.includes(component.path)
                   ? "text-white font-medium"
                   : "text-[#6f6f74] "
               }   text-lg cursor-pointer `}
-              onClick={() => setActive(component.path)}
             >
               {component.name}
             </Link>

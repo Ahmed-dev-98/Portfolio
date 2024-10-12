@@ -82,7 +82,7 @@ const Selector = () => {
           <div className="w-full flex justify-between items-center">
             {loading ? "Loading..." : "Async"}
             <button
-            className="bg-gray-900 px-4 py-1 rounded-md"
+              className="bg-gray-900 px-4 py-1 rounded-md"
               onClick={() => {
                 setOptions([]);
                 setLoading(true);
@@ -144,11 +144,11 @@ const Selector = () => {
               </code>
             </pre>
 
-            <p>Or with Yarn:</p>
+            <p>Or via github :</p>
 
             <pre className="bg-gray-800 text-white p-3 rounded-md">
               <code className="whitespace-pre">
-                yarn add Spiritude-selector
+                https://github.com/spiritude/library/selector
               </code>
             </pre>
             <pre className="bg-gray-800 text-white px-3 mt-2 rounded-md">
