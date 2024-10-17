@@ -21,7 +21,7 @@ interface MainSelectProps {
   value: (data: Option[] | Option) => void;
 }
 const MainSelect: React.FC<MainSelectProps> = ({
-  options,
+  options ,
   isMulti = false,
   loading = false,
   closeIcon = "✕",
